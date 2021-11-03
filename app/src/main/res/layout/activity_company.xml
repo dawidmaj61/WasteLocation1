@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompanyActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_car2"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:drawableLeft="@drawable/ic_mail"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Hasło"
+        android:drawableLeft="@drawable/ic_pass"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/pin"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="PIN"
+        android:drawableLeft="@drawable/ic_pin"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="183dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bgbtn"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        tools:visibility="visible"
+        android:text="Zaloguj się"
+        android:id="@+id/loginc"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="183dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bgbtn3"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        tools:visibility="visible"
+        android:text="Wyjdź"
+        android:id="@+id/loginc2"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerActivity">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@color/colorWhite"
+        app:itemIconTint="@color/colorWhite"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/ic_loger"
+            android:layout_marginTop="130dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:drawableLeft="@drawable/ic_mail"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="Hasło"
+            android:drawableLeft="@drawable/ic_pass"/>
+        <Button
+            android:layout_width="183dp"
+            android:layout_height="48dp"
+            android:background="@drawable/bgbtn"
+            android:gravity="center"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            tools:visibility="visible"
+            android:text="Zaloguj się"
+            android:id="@+id/loginer"/>
+        <Button
+            android:layout_width="183dp"
+            android:layout_height="48dp"
+            android:background="@drawable/bgbtn3"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            tools:visibility="visible"
+            android:text="Wyjdź"
+            android:id="@+id/loginer2"/>
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

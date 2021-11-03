@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginTop="40dp">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_here"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_loger"/>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zgłoszenie nr 468521"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/text_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Twoja lokalizacja"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/surname"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:hint="Dodatkowe informacje"
+                android:drawableLeft="@drawable/ic_create"
+                android:textSize="14dp"
+                android:layout_marginTop="15dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="90dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"/>
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_worek" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="90dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"/>
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_sredni" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="90dp"
+                    android:orientation="vertical">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"/>
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_duzy" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+        <Switch
+            android:id="@+id/button_location"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:padding="15dp"
+            android:text="" />
+
+    </LinearLayout>
+
+    <Button
+    android:layout_width="240dp"
+    android:layout_height="60dp"
+    android:background="@drawable/bgbtn"
+    android:layout_gravity="center"
+    android:layout_marginTop="135dp"
+    android:textColor="@color/colorWhite"
+    android:textSize="12sp"
+        android:id="@+id/send"
+    android:text="Wyślij zgłoszenie" />
+    <Button
+        android:layout_width="240dp"
+        android:id="@+id/cancel"
+        android:layout_height="60dp"
+        android:background="@drawable/bgbtn3"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:text="Anuluj zgłoszenie" />
+
+
+</LinearLayout>
