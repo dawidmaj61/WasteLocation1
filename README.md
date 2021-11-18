@@ -5,3 +5,8 @@ In principle, the application was to be only a proposal to solve the problem wit
 ## Interface
 The application interface is divided into two parts, which are visible in the first window after its launch. On the login panel shown in figure, 
 a user  can  make a  choice  depending  on  whether request  waste  PPE  collection  (“client”  - klient)  or display ongoing waste collection requests (“admin” - firma).
+
+### Client-side in the application
+xxx
+### Admin-side in the application
+xxx
