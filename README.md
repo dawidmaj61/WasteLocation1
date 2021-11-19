@@ -22,7 +22,7 @@ The client panel is a part of the mobile application. After pressing this button
 After a successful login attempt, the person using the application is transferred to location activity. The interface of this window consists of a geographic map stretched across the screen and two buttons, where the first one in the upper left corner is used to log out and the second one, located at the very base, is used to confirm the location shown . When the location service is enabled in the device, the application automatically determines our location with very high accuracy and sticks a pin-shaped icon to it. Maps SDKs have been used here.
 
 <p align="center">
-<img src="app/src/main/confirm.png" width="500" height="550" />
+<img src="app/src/main/confirm.png" width="400" height="420" />
 </p>
 
 The last step in the waste PPE collection request in the client's panel is the notification sending window. The interface of the app consists of a frame in which we have all the necessary information and two buttons for sending or canceling the notification for some reason. Important information is sent at the next step. A user indicates a waste pickup location and provides additional information that could be useful for the logistics employee of the waste collection company. A user must select the size or volume of the bag or container for storage waste PPE. For this purpose, it can be selected one of three icons, a plastic bag, a small container, and a medium-sized container.
@@ -31,5 +31,5 @@ The last step in the waste PPE collection request in the client's panel is the n
 The admin side of the mobile app is for logistics employees in waste collection companies. After selecting this mode a user can log in as administrator. All waste collection requests are displayed. The interface of this window consists mainly of tiles where the information about  the customer's request number, waste bag or  container location and, a button to calculate a route from our current location. This option can be helpful for a driver visiting scheduled locations. Also, no connection to the API, as in the customer panel.
 
 <p align="center">
-<img src="app/src/main/company.png" width="500" height="550" />
+<img src="app/src/main/company.png" width="400" height="420" />
 </p>
