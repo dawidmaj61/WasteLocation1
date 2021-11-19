@@ -1,6 +1,8 @@
 # WastePPELocation_prototype
-WastePPELocation is a mobile application created for the conference: XII International Scientific Conference and IX International Symposium of Young Researchers. I named it as a prototype because not all of its functions have been implemented. 
-In principle, the application was to be only a proposal to solve the problem with the appearance of a new type of waste in households.
+WastePPELocation is a mobile application created for the conference: XII International Scientific Conference and IX International Symposium of Young Researchers. I named it as a prototype because not all of its functions have been implemented.
+
+## Features
+This study proposes  a novel  mobile app  to facilitate  the collection  of waste  PPE generated  in households, institutions, and companies. The main goal was to design a simple but functional mobile app  with  a possible  extension to  a  website based  system for  reporting  waste  personal  protective equipment for the collection. The functionality of the app includes the selection of the commonly used containers for waste collection like plastic bags – for households, bins for larger settlements, and small containers.  The  prototype  application  allows  for  easy  communication  by  residents  with  waste collection companies. Additional features include a possibility of registering all waste collection calls and  export these  data to  any  routing optimization  software.  The route  optimization  results in  the assignment of  a sufficient number of vehicles and  employees for the  waste collection plan. Future work can include an  extension of the  features of the mobile app  and design of the website based system to be able to send data via any browser to be applied on any stationary computer or mobile device.
 
 ## Interface
 The application interface is divided into two parts, which are visible in the first window after its launch. On the login panel shown in figure, 
